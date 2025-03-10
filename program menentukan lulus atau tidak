@@ -1,0 +1,12 @@
+ef cek_kelulusan(bayar_penuh,nilai_rata_rata):
+if bayar_penuh >=nilai_rata_rata
+    return "lulus"
+ else:  
+    return "tidak lulus"
+
+#input dari pengguna
+bayar_penuh = input("apakah biaya semester sudah di bayar penuh? (ya/tidak): ").strip().lower()==
+nilai_rata_rata = input("masukan nilai rata-rata ujian (A/B/C/D/E):").strip().upper()
+
+#menampilkan hasil
+print("status kelulusan:",cek_kelulusan(bayar_penuh,nilai_rata_rata)
