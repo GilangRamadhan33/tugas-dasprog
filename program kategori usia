@@ -1,0 +1,11 @@
+ kategori_usia(usia)
+    if 0 <= usia <2:
+        return "bayi"
+    elif 2 <= usia < 5: 
+        return "balita"
+    elif 5 <= usia < 12:
+        return "anak-anak"
+    elif 12 <= usia < 18:
+        return "remaja"
+    else:
+        return "dewasa"
